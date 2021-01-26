@@ -3,7 +3,7 @@
 
 This text explains how to start doing version control for the practicum with [Git](https://git-scm.com/) and [Github](https://git-scm.com/). 
 
-Doing version control is not compulsory but highly recommended for any *team* developing software, even for a single developer. Git combined with Github is the most widespread way to do it. So, sooner or later you will end up learning, using and maybe enjoying Git + Github, or some other version control tool and platform.
+Doing version control (VC) is not compulsory but highly recommended for any *team* developing software, and even for a developer working in isolation. Git combined with Github is the most widespread way to do *distributed* VC. Distributed means to share a project files with other programmers which change them simultaneously, the normal way to develop software. So, sooner or later you will end up learning, using and maybe enjoying Git + Github, or some other version control tool and platform.
 
 Play the following short videos to know more:
 -  [What is version control ?](https://git-scm.com/video/what-is-version-control) 6 min.
@@ -17,31 +17,29 @@ As a plus, you can easily build a portfolio to showcase your projects, and refer
 # Start version control for the practicum
 
 One of the students of the team will 
-1. download (not exactly, but *clone* it) a Github [existing repository](http://github.com/mat-cad/random_forests_estudiants) made by us, that is a template for the team's repository that will contain their project
-2. create a new repository in his/her Github account and upload (again, the right term is *push*) this template into it
-3. invite the other team members to share it
 
-Each of the other members will then *pull* this repository to have his/her own local copy. Now all members are in sync and ready to do version control through Git commands. Now, in detail.
+1. copy (*fork* in Github words) a Github [existing repository](http://github.com/mat-cad/random_forests_estudiants) made by us to his/her Github account. It is a template for the practicum repository.
+1. invite the other team members to share it.
+
+Each member will then *clone* this repository to have his/her own local copy in the computer. Now all members are in sync and ready to do version control through Git commands. Now, in detail.
 
 First, all the students sign-up into github.com (create an account) and make sure they have Git installed in their computers.
 
-One of the students follows these steps:
+One of the students, say Pere Grau, Github user ``pere-grau``, follows these steps:
 
-1. Sign-in (login) to github.com and create a new repository, for instance by clicking at the ``+`` sign at upper-right corner
+1. Sign-in (login) to github.com and fork repository http://github.com/mat-cad/random_forests_estudiants
 
-1. Name the repository ``random_forests`` and specify it's **private**
+1. Go to Settings, rename the repository to ``random_forests`` and specify it's **private**
 
-1. Invite team mates with at least "Write" role
+1. Go to Settings -> Collaborators and invite the team mates with at least "Write" role
 
-1. visit http://github.com/mat-cad/random_forests_estudiants to see the template you are going to download. Actually you could also download it as a zip (green button ``Code``).
-
-1. download somewhere in his/her file system, the starting files from this Github repository :
+Now each team member downloads the repository files somewhere in the file system, in such a way that the directory where they are copied is subject to version control and becomes connected to the Github repository
 
 ```
 $ cd ~/Documents/POO/
-$ git clone http://github.com/mat-cad/random_forests_estudiants
-Cloning into 'random_forests_estudiants'...
-warning: redirecting to https://github.com/mat-cad/random_forests_estudiants/
+$ git clone http://github.com/pere-grau/random_forests
+Cloning into 'random_forests'...
+warning: redirecting to https://github.com/mat-pere-grau/random_forests/
 remote: Enumerating objects: 13, done.
 remote: Counting objects: 100% (13/13), done.
 remote: Compressing objects: 100% (13/13), done.
@@ -49,24 +47,12 @@ remote: Total 13 (delta 0), reused 13 (delta 0), pack-reused 0
 Unpacking objects: 100% (13/13), done.
 ```
 
-this will create a directory ``~/Documents/POO/random_forests_estudiants`` and populate it with the files in thae Github repository. 
+this will create a directory ``~/Documents/POO/random_forests`` and populate it with the files in the Github repository. 
 
-It has a .git folder, so you are already able to do control version with git *locally*. In order to work with Github you need some additional steps.
+It has a ``.git`` folder, so you are already able to do control version with git *locally*. In order to work with Github you need some additional steps.
 
-6. rename to a better name for your project, the same as the repository previously created in github
 
-```
-$ mv random_forests_estudiants random_forests
-```
-
-7. now upload the cloned repo into the team's github repository
-
-```
-$ cd random_forests
-$ git push http://github.com/mat-cad/random_forests master
-```
-
-9. some messages appear and you are done. You can check the status and see the number of the first version of the repository
+You can check the status and see the number of the first version of the repository
 
 ```
 $ git status
@@ -79,5 +65,3 @@ Date:   Fri Jan 22 14:28:08 2021 +0100
 
     initial commit
 ```
-
-The other students who have been invited to the repository now clone it to get a local copy and start also doing version control.

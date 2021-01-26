@@ -26,7 +26,6 @@ replace link to overleaf by pdf
 Follows scikit-learn style
 
 ```python
-# 
 rf = RandomForestClassifier(
         max_depth,    # of each decision tree
         min_size,     # of a node to make it a leave
