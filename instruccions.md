@@ -16,16 +16,16 @@ As a plus, you can easily build a portfolio to showcase your projects, and refer
 
 # Start version control for the practicum
 
-One of the students of the team will 
-
-1. copy (*fork* in Github words) a Github [existing repository](http://github.com/mat-cad/random_forests_estudiants) made by us to his/her Github account. It is a template for the practicum repository.
-1. invite the other team members to share it.
-
-Each member will then *clone* this repository to have his/her own local copy in the computer. Now all members are in sync and ready to do version control through Git commands. Now, in detail.
-
 First, all the students sign-up into github.com (create an account) and make sure they have Git installed in their computers.
 
-One of the students, say Pere Grau, Github user ``pere-grau``, follows these steps:
+One of the students of the team will copy (*fork* in Github words) a Github [existing repository](http://github.com/mat-cad/random_forests_estudiants) made by us to his/her Github account. It is a template for the practicum repository. Once done, this student invites the other team members to share it.
+
+Each member *clones* this repository to have his/her own local copy in the computer. Now all members are in sync and ready to do version control through Git commands. 
+
+Now, in detail:
+
+
+One of the students, with Github user ``pere-grau`` for example, follows these steps:
 
 1. Sign-in (login) to github.com and fork repository http://github.com/mat-cad/random_forests_estudiants
 
@@ -33,7 +33,7 @@ One of the students, say Pere Grau, Github user ``pere-grau``, follows these ste
 
 1. Go to Settings -> Collaborators and invite the team mates with at least "Write" role
 
-Now each team member downloads the repository files somewhere in the file system, in such a way that the directory where they are copied is subject to version control and becomes connected to the Github repository
+Now each team member downloads the repository files somewhere in the file system, in such a way that the directory where they are copied is subject to version control and becomes connected to the Github repository. This is *cloning* the repository:
 
 ```
 $ cd ~/Documents/POO/

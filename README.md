@@ -1,13 +1,16 @@
 
-# Random Forest object oriented
+# Random Forests
 
 ![](bosc_montseny.jpeg)
 
-This practicum is about building a modular and extensible object-oriented design and implementation in Python of random forests. This was a popular and effective method for classification and regression in machine learning before this field was taken by storm by deep neural networks. Nowadays it is still a good solution for problems where one can easily handcraft *features*. 
+The goal of this project is to implement in Python a random forest classifier and regressor. The focus, however, is on two aspects:
+- object-oriented design, according to OO principles and patterns
+- good programming practices: logging, comments and coding style 
 
-This practicum was done for the Object Oriented Programming course of the Matemàtiques Computacionals i Anàlisi de Dades (Mad-CAD), Universitat Autònoma de Barcelona, 2020-21. Handout is available in [Overleaf](https://www.overleaf.com/read/dfjyxpnybjgp).
+Random forests was a popular machine learning method for classification and regression before the deep-learning era. Nowadays it is still a good solution for problems where one can easily handcraft *feature vectors*. 
 
-The goal was to learn object oriented design and programming in Python plus coding style, logging and, along the way, the basics of machine learning.
+This project was the practicum of the Object Oriented Programming course of the Matemàtiques Computacionals i Anàlisi de Dades (Mad-CAD) degree at Universitat Autònoma de Barcelona, 2020-21. Handout is available in [Overleaf](https://www.overleaf.com/read/dfjyxpnybjgp).
+
 
 <!---
 replace link to overleaf by pdf
