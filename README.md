@@ -43,6 +43,11 @@ ypred = rf.predict(Xtest)
 rf = RandomForestRegressor(...)
 ```
 
+## Design
+(put here your final design)
+
+![](diagram.png)
+
 ## Authors
 
 This is team work with Pere Garriga and Genis Soler.
