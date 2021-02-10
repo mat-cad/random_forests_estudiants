@@ -46,7 +46,7 @@ rf = RandomForestRegressor(...)
 ## Design
 (put here your final design)
 
-![](diagram.png)
+![](diagrama2.png)
 
 ## Authors
 
