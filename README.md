@@ -9,7 +9,7 @@ The goal of this project is to implement in Python a random forest classifier an
 
 Random forests was a popular machine learning method for classification and regression before the deep-learning era. Nowadays it is still a good solution for problems where one can easily handcraft *feature vectors*. 
 
-This project was the practicum of the Object Oriented Programming course of the Matemàtiques Computacionals i Anàlisi de Dades (Mad-CAD) degree at Universitat Autònoma de Barcelona, 2020-21. Handout is available in [Overleaf](https://www.overleaf.com/read/dfjyxpnybjgp).
+This project was the practicum of the Object Oriented Programming course of the Matemàtiques Computacionals i Anàlisi de Dades (Mad-CAD) degree at Universitat Autònoma de Barcelona, 2021-22. Handout is available in [Overleaf](https://www.overleaf.com/read/dfjyxpnybjgp).
 
 
 <!---
